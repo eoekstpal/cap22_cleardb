@@ -4,11 +4,14 @@ const Sequelize = require('sequelize');
 const db = {};
 
 const config = {
-  "username": "capstone",
-  "password": "capstone123!",
-  "database": "cap_db",
-  "host": "127.0.0.1",
+  "username": "ba67dd009bf67a",
+  "password": "cb220048",
+  //"password2": "heroku_7f91a283fff906c",
+  "database": "heroku_7f91a283fff906c",
+  "host": "us-cdbr-east-05.cleardb.net",
   "dialect": "mysql",
+  "port": "3306",
+  "operatorsAliases": 0,
   "define": {
     "underscored": false,
     "freezeTableName": false,
