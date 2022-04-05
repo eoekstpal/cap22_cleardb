@@ -3,6 +3,7 @@
 const Sequelize = require('sequelize');
 const db = {};
 
+//mysql -u ba67dd009bf67a -h us-cdbr-east-05.cleardb.net -p heroku_7f91a283fff906c
 const config = {
   "username": "ba67dd009bf67a",
   "password": "cb220048",
